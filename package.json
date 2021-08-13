@@ -1,0 +1,17 @@
+{
+    "name": "reactServerlessTemplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "dependencies": {
+        "serverless": "^1.60.4",
+        "serverless-webpack": "^5.3.1"
+    },
+    "devDependencies": {
+        "serverless-s3-sync": "^1.10.2",
+        "webpack": "^4.41.5"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
