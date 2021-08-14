@@ -20,6 +20,11 @@ This project show how fast we can deploy react app in s3 and cloudfront with ser
   yarn build
   ```
 * Move to react-s3-cloudFront-serverless-template
+* Edit serverless.yml The name of the bucket must be unique.
+  ```
+  custom:
+  bucketName: Your bucket name
+* Now Let's deploy!!
     ```
     sls deploy
     ```

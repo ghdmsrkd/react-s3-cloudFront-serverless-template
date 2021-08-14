@@ -9,6 +9,8 @@ plugins:
   - serverless-s3-sync
 
 custom:
+  // The name of the bucket must be unique.
+  // Please correct the name of the bucket.
   bucketName: serverless-react-app-test-1234
   s3Sync:
     - bucketName: ${self:custom.bucketName}
