@@ -2,15 +2,14 @@ service: myserverlessproject2
 
 provider:
   name: aws
-  runtime: nodejs12.x
-  profile: landbox_v2_lambda
-  region: eu-west-1
+  runtime: nodejs14.x
+  region: ap-northeast-2
 
 plugins:
   - serverless-s3-sync
 
 custom:
-  bucketName: my-serverless-react-app-test-1234
+  bucketName: serverless-react-app-test-1234
   s3Sync:
     - bucketName: ${self:custom.bucketName}
       localDir: my-app/build/
